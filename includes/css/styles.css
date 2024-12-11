@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.banner {
+    height: 100vh; /* 100% da altura visível */
+    background-image: url('../../imgs/banner.png'); /* img */
+    background-position: center; /* centrar V e H o fundo */
+    background-size: cover; /* img cobre espaço do container */
+}
+
+.wrapper {
+    max-width: 900px;
+    /* min-width: 1000px; */
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 15px;
+}
+
+.header .logo {
+    height: 40px;
+}
